@@ -1,0 +1,24 @@
+{
+	"name": "Customer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage_lab3",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "Input"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
