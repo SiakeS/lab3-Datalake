@@ -1,0 +1,9 @@
+{
+	"name": "lab3-pipeline",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d7ce7e18-debb-478f-bf74-591c65110def",
+		"tenantId": "413600cf-bd4e-4c7c-8a61-69e73cddf731"
+	}
+}
